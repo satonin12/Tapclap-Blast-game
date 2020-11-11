@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&#128522; Blast for me!</title>
+
+    <!-- scripts -->
+    <script src="../app/index.js"></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    <div class="content">
+
+      <div class="modal-window">
+        <div class="modal-window_text">
+          Цель игры -- набрать 1000 очков за 10 ходов, иначе проигрыш
+        </div>
+        <div id="startGame" class="modal-window_button">
+          <div id="again" class="inner">Начать!</div>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="header_content">
+          <div class="header_wrapper-loading">
+            <div class="header_loading"></div>
+          </div>
+          <!-- <div class="header_loading-button text_style">
+            <div class="inner">Перемешать</div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="game">
+        <div class="game_field">
+          <div id="pole" class="game_wrapper"></div>
+        </div>
+
+        <div class="game-panel">
+
+          <div class="game-panel_score">
+            <div class="game-panel_content">
+              <div id="step" class="text_style" style="margin-top: 140px;">10</div>
+              <div id="score" class="text_style" style="margin-top: 115px;">0</div>
+            </div>
+          </div>
+
+          <div class="text_style" style="width: 300px; height: 25px;">За сжигание тайла даётся:</div>
+
+          <div class="game-panel_bonus">
+
+            <div class="panel-bonus">
+              <div class="panel-bonus_text">
+                <div class="text_style">2-3</div>
+              </div>
+              <div class="panel-bonus_score">
+                <div class="text_style">10</div>
+                <div class="panel-bonus_rectangle"></div>
+              </div>
+            </div>
+
+            <div class="panel-bonus">
+              <div class="panel-bonus_text">
+                <div class="text_style">4-5</div>
+              </div>
+              <div class="panel-bonus_score">
+                <div class="text_style">15</div>
+                <div class="panel-bonus_rectangle"></div>
+              </div>
+            </div>
+
+            <div class="panel-bonus">
+              <div class="panel-bonus_text">
+                <div class="text_style">6+</div>
+              </div>
+              <div class="panel-bonus_score">
+                <div class="text_style">20</div>
+                <div class="panel-bonus_rectangle"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
