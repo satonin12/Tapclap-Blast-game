@@ -1,0 +1,43 @@
+{
+  "name": "blast-game",
+  "version": "1.0.0",
+  "description": "game blast realization in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open",
+    "prettier": "prettier --write **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satonin12/Tapclap-Blast-game.git"
+  },
+  "keywords": [
+    "Blast"
+  ],
+  "author": "Vladislav Satonin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satonin12/Tapclap-Blast-game/issues"
+  },
+  "homepage": "https://github.com/satonin12/Tapclap-Blast-game#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dashboard": "^3.2.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
